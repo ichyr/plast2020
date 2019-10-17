@@ -1,4 +1,34 @@
+// constants declaration
+$screen-size-small: 375px;
+$screen-size-medium: 768px;
+$screen-size-large: 992px;
+
+// colors declaration
+
+// fonts declarations
+
 .header {
   background-color: violet;
   font-size: 72px;
+}
+
+@media (min-width: $screen-size-small) {
+  .header {
+    background-color: green;
+    font-size: 72px;
+  }
+}
+
+@media (min-width: $screen-size-medium) {
+  .header {
+    background-color: blue;
+    font-size: 72px;
+  }
+}
+
+@media (min-width: $screen-size-large) {
+  .header {
+    background-color: orange;
+    font-size: 72px;
+  }
 }

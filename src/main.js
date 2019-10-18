@@ -1,5 +1,6 @@
 import './main.scss';
 import './donations.scss';
-
-// console.log("hello")
-console.log('hello4')
+import './support-banner.scss';
+import  './attraction.scss';
+import './donations_counter.scss';
+import './project-list.scss';

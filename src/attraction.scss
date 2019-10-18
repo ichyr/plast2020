@@ -1,0 +1,51 @@
+.attraction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .attraction__title {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+
+  }
+
+  .attraction__element {
+    width: 70%;
+    display: flex;
+    //flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .attraction__message {
+      border-left: 5px solid #221131;
+      border-radius: 2px;
+      padding: 15px;
+    }
+
+    .attraction__main-title {
+      font-family: PT Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 31px;
+      /* identical to box height */
+      color: #000000;
+    }
+
+    .attraction__subtitle {
+      font-family: PT Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+
+      color: #000000;
+    }
+  }
+}

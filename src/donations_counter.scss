@@ -1,0 +1,78 @@
+.donations-counter {
+  .donations-counter__main-title {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #000000;
+  }
+
+  .donations-counter__list {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .donations-counter__element {
+    .donations-counter__sum {
+      font-family: PT Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      //line-height: 83px;
+
+      color: #000000;
+    }
+
+    .donations-counter__small-text {
+      font-family: PT Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    display: flex;
+    .vertical {
+      //display: inline-block;
+      width: 150px;
+      height: 50px;
+      -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+      transform: rotate(-90deg);
+      background: rgba(0, 0,0, .1);
+    }
+    .vertical {
+      box-shadow: inset 0px 4px 6px #ccc;
+    }
+    .progress-bar {
+      box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
+    }
+
+    .donations-counter__list {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+.progress-bar {
+  box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
+  background: red;
+  height: 100%;
+  /* font-size: 12px; */
+  /* line-height: 20px; */
+  color: #fff;
+  text-align: center;
+  background-color: #337ab7;
+  background: linear-gradient(180deg, #3D1E5C 0%, #221131 84.38%);
+  box-shadow: 0px 4px 20px rgba(61, 30, 92, 0.4);
+  border-radius: 4px;
+}
+
+.progress-bar-info {
+  background-color: #5bc0de;
+}

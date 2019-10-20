@@ -1,0 +1,26 @@
+.supporters {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.supporters__title {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.supporters__list {
+  margin: 15px;
+}
+
+.supporters__element {
+  margin-top: 25px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  opacity: 0.7;
+}

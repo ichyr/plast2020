@@ -1,0 +1,21 @@
+.header-toggle__button.header-toggle__button {
+  color: #3d1e5c;
+  border: 0;
+}
+
+.header .header-toggle_title {
+  color: #3d1e5c;
+}
+
+.header .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(61,30,92)' stroke-width='3' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.header-toggle .nav-item.nav-link {
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  color: #3d1e5c;
+}

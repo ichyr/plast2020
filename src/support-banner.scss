@@ -13,17 +13,12 @@
   .support-banner__message {
     width: 60%;
     min-height: 180px;
-    //background: black;
-    //opacity: .6;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.35) 100%);
     display: flex;
-
-    //justify-content: center;
-    //flex-direction: column;
+    align-items: center;
   }
 
   .support-banner__text {
-    //display: flex;
   }
 
   .support-banner__main-title {

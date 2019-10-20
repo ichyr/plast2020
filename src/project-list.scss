@@ -3,6 +3,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 25px;
 }
 
 .project-list__title {
@@ -73,4 +74,19 @@
 }
 .progress-bar {
   box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
+}
+
+@media screen and (max-width: 968px) {
+
+  .project-list__element {
+    flex-direction: column;
+  }
+
+  .project-list__message {
+    order: 2;
+  }
+
+  .project-list__image {
+    order: 1;
+  }
 }

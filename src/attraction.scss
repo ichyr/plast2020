@@ -1,5 +1,6 @@
 .attraction {
   display: flex;
+  margin-top: 50px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -47,5 +48,20 @@
 
       color: #000000;
     }
+  }
+}
+
+@media screen and (max-width: 968px) {
+
+  .attraction__element {
+    flex-direction: column;
+  }
+
+  .attraction__message {
+    order: 2;
+  }
+
+  .attraction__photo {
+    order: 1;
   }
 }

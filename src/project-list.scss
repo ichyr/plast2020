@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding: 25px;
+  margin-top: 25px;
 }
 
 .project-list__title {
@@ -87,6 +88,27 @@
   }
 
   .project-list__image {
+    //max-width: 500px;
     order: 1;
   }
 }
+
+@media screen and (max-width: 768px) {
+
+  .project-list__element {
+    flex-direction: column;
+  }
+
+  .project-list__message {
+    order: 2;
+  }
+
+  .project-list__image {
+    img {
+      max-width: 300px;
+
+    }
+    order: 1;
+  }
+}
+

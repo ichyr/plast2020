@@ -43,3 +43,24 @@
 
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    //padding: 0;
+  }
+
+  .footer__logo {
+    display: flex;
+    justify-content: center;
+  }
+  //
+  //.contacts__element {
+  //  margin-top: 25px;
+  //  display: flex;
+  //  flex-direction: column;
+  //  justify-content: center;
+  //  align-items: center;
+  //}
+
+}

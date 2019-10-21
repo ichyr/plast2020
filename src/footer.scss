@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-around;
   border-top: 1px solid #0000001c;
+  font-family: Arial;
 }
 
 .footer__links {
@@ -42,6 +43,14 @@
     color: #FFFFFF;
 
   }
+}
+
+.footer__logo {
+  color: #3d1e5c;
+  font-family: 'Myriad Pro';
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
 }
 
 @media screen and (max-width: 768px) {

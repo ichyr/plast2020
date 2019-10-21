@@ -28,6 +28,17 @@
   font-size: 14px;
 }
 
+.contacts__socials {
+  color: rgba(0, 0, 0, .7);
+  display: flex;
+  a {
+    margin-right: 25px;
+    color: rgba(0, 0, 0, .7);
+    font-size: 22px;
+    text-decoration: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .contacts {
     flex-direction: column;

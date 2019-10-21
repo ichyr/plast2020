@@ -3,12 +3,13 @@
   padding: 0;
   width: 100%;
   min-height: 400px;
-  background-image: url('https://res.cloudinary.com/dhcba8amn/image/upload/v1571404652/promotion_image_pifoi3.png');
+  background-image: url('https://res.cloudinary.com/dhcba8amn/image/upload/v1571655961/DSC_3432_pvtdot.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
 
   .support-banner__text {
   }
@@ -43,14 +44,24 @@
   align-items: center;
 }
 
+.support-banner__lily-wrapper {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  background: #221131;
+  justify-content: center;
+}
 
 .support-banner__lily {
   width: 100%;
-  height: 200px;
-  background-image: url('https://res.cloudinary.com/dhcba8amn/image/upload/v1571405545/lily_lnv3ja.png');
+  height: 220px;
+  background-image: url('https://res.cloudinary.com/dhcba8amn/image/upload/v1571655743/logo_njcnjk.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   .support-banner__message {
     width: 100%;
     //height: 100%;
@@ -63,9 +74,10 @@
     order: 1;
       width: 90%;
       height: 200px;
-      background-image: url('https://res.cloudinary.com/dhcba8amn/image/upload/v1571648965/Vector_xupikj.png');
+      background-image: url('https://res.cloudinary.com/dhcba8amn/image/upload/v1571655743/logo_njcnjk.jpg');
+      background-position: center;
       background-repeat: no-repeat;
-    background-position: center;
+      background-size: contain;
   }
 
   .support-banner__text {

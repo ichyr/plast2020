@@ -11,7 +11,9 @@
     />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
+    <link rel="stylesheet" href="./MyriadPro/stylesheet.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light header">
@@ -28,7 +30,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+        <div class="navbar-nav  ml-auto">
           <!--        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
           <a class="nav-item nav-link" href="#attraction">На що підуть кошти</a>
           <a class="nav-item nav-link" href="#donations-counter"
@@ -37,7 +39,17 @@
           <a class="nav-item nav-link" href="#about">Про Пласт</a>
           <a class="nav-item nav-link" href="#supporters">Благодійники</a>
           <a class="nav-item nav-link" href="#contacts">Контакти</a>
-          <a class="nav-item nav-link" href="/faq">Запитання і відповіді</a>
+          <a class="nav-item nav-link" href="./faq/index.html">Запитання і відповіді</a>
+          <a class="nav-item nav-link" href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="nav-item nav-link" href="">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+
+          <a class="nav-item nav-link">
+            <i class="fab fa-twitter"></i>
+          </a>
         </div>
       </div>
     </nav>
@@ -54,8 +66,9 @@
             однодумців в єдину хвилю змін для сталого розвитку України.
           </div>
         </div>
-
-        <div class="support-banner__lily"></div>
+        <div class="support-banner__lily-wrapper">
+          <div class="support-banner__lily"></div>
+        </div>
       </div>
     </div>
     <div class="donations" id="donations">
@@ -71,15 +84,15 @@
       <div class="donations__buttons">
         <div class="donations__button">
           <a href="#" class="donations__link"></a>
-          LIQPAY
+          <img src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571670607/1280px-LIQPAY.svg_xd226p.png" />
         </div>
         <div class="donations__button">
           <a href="#" class="donations__link"></a>
-          FONDY
+          <img src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571670939/fondy_logo_correct_w_qbsjfk.png" />
         </div>
         <div class="donations__button">
           <a href="#" class="donations__link"></a>
-          PayPal
+          <img class="background--white" src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571671036/PP_logo_h_100x26_alvr5u.png"/>
         </div>
         <div class="donations__button">
           <a href="./account_payment/index.html" class="donations__link"></a>
@@ -102,7 +115,7 @@
       <div class="attraction__element">
         <div class="attraction__message">
           <div class="attraction__main-title">
-            Заголовок
+            Залучення та навчання виховників, що працюють з дітьми
           </div>
           <div class="attraction__subtitle">
             Прагнемо, щоб більше молодих українців долучилися до Пласту й
@@ -120,7 +133,7 @@
       <div class="attraction__element">
         <div class="attraction__message">
           <div class="attraction__main-title">
-            Заголовок
+            Створення нових осередків та забезпечення їх функціонування
           </div>
           <div class="attraction__subtitle">
             Прагнемо, щоб більше молодих українців долучилися до Пласту й
@@ -137,7 +150,7 @@
       <div class="attraction__element">
         <div class="attraction__message">
           <div class="attraction__main-title">
-            Заголовок
+            Забезпечення організаційного функціонування Пласту
           </div>
           <div class="attraction__subtitle">
             Прагнемо, щоб більше молодих українців долучилися до Пласту й
@@ -153,9 +166,12 @@
       </div>
 
       <div class="attraction__element">
+        <div class="attraction__pipe"></div>
+
         <div class="attraction__message">
+
           <div class="attraction__main-title">
-            Заголовок
+            Організація та проведення 25 таборів
           </div>
           <div class="attraction__subtitle">
             Прагнемо, щоб більше молодих українців долучилися до Пласту й
@@ -376,6 +392,17 @@
             <span>Тарас Григорович Шевченко</span>
             <span>Електронна пошта - <strong>info@plast.org.ua</strong></span>
             <span>Телефон - <strong>063 431 53 64</strong></span>
+            <div class="contacts__socials">
+              <a href="">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a>
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
           </div>
         </div>
         <div class="contacts__element">
@@ -387,6 +414,17 @@
             <span>Електронна пошта - <strong>info@plast.org.ua</strong></span>
             <span>Телефон - <strong>063 431 53 64</strong></span>
             <span>Адреса - <strong>м. Львів; вул.Шевченка 18</strong></span>
+            <div class="contacts__socials">
+              <a href="">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a>
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -441,6 +479,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://kit.fontawesome.com/6370203886.js" crossorigin="anonymous"></script>
 
     <script type="text/javascript" src="bundle.js"></script>
   </body>

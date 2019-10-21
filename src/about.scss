@@ -4,7 +4,7 @@
   align-items: center;
   //padding: 50px;
   //margin: 15px;
-  padding: 55px;
+  padding: 25px;
   position: relative;
 }
 
@@ -47,4 +47,22 @@
   background: rgba(57, 22, 85, 0.03);
   //right: -50px;
   z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .about__image {
+    order: 1;
+  }
+
+  .about__message {
+    order: 2;
+  }
+
+  .about__background {
+    height: 100%;
+  }
 }

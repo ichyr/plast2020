@@ -55,6 +55,49 @@
 
   .attraction__element {
     flex-direction: column;
+
+    img {
+      max-width: 500px;
+    }
+  }
+
+  .attraction__message {
+    order: 2;
+  }
+
+  .attraction__photo {
+    order: 1;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .attraction__element {
+    flex-direction: column;
+
+    img {
+      max-width: 350px;
+    }
+  }
+
+  .attraction__message {
+    order: 2;
+  }
+
+  .attraction__photo {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 568px) {
+
+  .attraction__element {
+    flex-direction: column;
+
+    img {
+      max-width: 300px;
+    }
   }
 
   .attraction__message {

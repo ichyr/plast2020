@@ -11,13 +11,6 @@
     color: #000000;
   }
 
-  .donations-counter__list {
-    min-height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .donations-counter__element {
     .donations-counter__sum {
       font-family: PT Sans;
@@ -60,6 +53,14 @@
   }
 }
 
+.donations-counter__list {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .progress-bar {
   box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
   background: red;
@@ -76,4 +77,18 @@
 
 .progress-bar-info {
   background-color: #5bc0de;
+}
+
+
+@media screen and (max-width: 768px) {
+  .donations-counter__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .donations-counter__element {
+    margin-top: 100px;
+  }
+
 }

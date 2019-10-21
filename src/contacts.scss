@@ -27,3 +27,19 @@
   font-weight: normal;
   font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+  .contacts {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .contacts__element {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

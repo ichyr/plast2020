@@ -6,6 +6,10 @@
   align-items: center;
   background-image: url("https://i.ibb.co/L8KRk2Q/Group-62.png");
 
+  .attraction__element__wrapper {
+    display: flex;
+  }
+
   .attraction__title {
     font-family: PT Sans;
     font-style: normal;
@@ -16,9 +20,9 @@
     color: #000000;
   }
 
-  .attraction__border {
-    width: 25px;
-    height: 200px;
+  .attraction__element__border {
+    min-width: 8px;
+    height: auto;
     background-color: #221131;
     border-radius: 4px;
   }
@@ -26,7 +30,6 @@
   .attraction__element {
     width: 70%;
     display: flex;
-    //flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 55px;
@@ -60,6 +63,15 @@
       color: #000000;
     }
   }
+
+//   .attraction__element::before {
+//     display: block;
+//     content: "";
+//     width: 25px;
+//     border-radius: 4px;
+//     height: 200px;
+//     background: #221131;
+//   }
 }
 
 //.attraction__pipe {
@@ -105,19 +117,32 @@
 }
 
 @media screen and (max-width: 568px) {
-  .attraction__element {
-    flex-direction: column;
+  .attraction {
+    .attraction__element {
+      flex-direction: column;
+      position: relative;
 
-    img {
-      max-width: 300px;
+      img {
+        max-width: 300px;
+      }
     }
-  }
 
-  .attraction__message {
-    order: 2;
-  }
+    .attraction__element::before {
+      position: absolute;
+      content: "";
+      top: 10px;
+      width: 5px;
+      left: -17px;
+      border-radius: 4px;
+      height: 111px;
+    }
 
-  .attraction__photo {
-    order: 1;
+    .attraction__message {
+      order: 2;
+    }
+
+    .attraction__photo {
+      order: 1;
+    }
   }
 }

@@ -16,6 +16,7 @@
 
   .support-banner__main-title {
     margin-left: 50px;
+    font-family: PT Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -23,6 +24,7 @@
   }
 
   .support-banner__subtitle {
+    font-family: PT Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -35,7 +37,6 @@
 }
 
 .support-banner__message {
-  font-family: Roboto;
   width: 60%;
   min-height: 180px;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.35) 100%);

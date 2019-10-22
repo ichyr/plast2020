@@ -19,18 +19,24 @@
   .attraction__element {
     width: 70%;
     display: flex;
-    //flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 55px;
+    //align-items: center;
+    margin-top: 75px;
 
     .attraction__photo {
-      height: 200px;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 350px;
+      }
     }
 
     .attraction__message {
       border-left: 5px solid #221131;
       padding: 15px;
+      display: flex;
+      align-items: center;
+      width: 100%;
     }
 
     .attraction__main-title {
@@ -41,7 +47,7 @@
       line-height: 31px;
       /* identical to box height */
       color: #000000;
-      margin-bottom: 25px;
+      //margin-bottom: 25px;
     }
 
     .attraction__subtitle {
@@ -68,7 +74,7 @@
     flex-direction: column;
 
     img {
-      max-width: 500px;
+      //max-width: 500px;
     }
   }
 
@@ -78,6 +84,9 @@
 
   .attraction__photo {
     order: 1;
+    img {
+      width: 250px;
+    }
   }
 }
 
@@ -88,16 +97,20 @@
     flex-direction: column;
 
     img {
-      max-width: 350px;
+      max-width: 250px;
     }
   }
 
   .attraction__message {
+    margin-top: 50px;
     order: 2;
   }
 
   .attraction__photo {
     order: 1;
+    img {
+      width: 250px;
+    }
   }
 }
 
@@ -106,16 +119,21 @@
   .attraction__element {
     flex-direction: column;
 
+
     img {
-      max-width: 300px;
+      max-width: 250px;
     }
   }
 
   .attraction__message {
+    margin-top: 25px;
     order: 2;
   }
 
   .attraction__photo {
+    img {
+      width: 250px;
+    }
     order: 1;
   }
 }

@@ -31,15 +31,23 @@
     width: 70%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 55px;
+    //align-items: center;
+    margin-top: 75px;
 
     .attraction__photo {
-      height: 200px;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 350px;
+      }
     }
 
     .attraction__message {
       padding: 22px;
+      border-left: 5px solid #221131;
+      display: flex;
+      align-items: center;
+      width: 100%;
     }
 
     .attraction__main-title {
@@ -50,7 +58,7 @@
       line-height: 31px;
       /* identical to box height */
       color: #000000;
-      margin-bottom: 25px;
+      //margin-bottom: 25px;
     }
 
     .attraction__subtitle {
@@ -64,28 +72,12 @@
     }
   }
 
-//   .attraction__element::before {
-//     display: block;
-//     content: "";
-//     width: 25px;
-//     border-radius: 4px;
-//     height: 200px;
-//     background: #221131;
-//   }
-}
-
-//.attraction__pipe {
-//  height: 100px;
-//  width: 2px;
-//  border-right: 1px solid red;
-//}
-
 @media screen and (max-width: 968px) {
   .attraction__element {
     flex-direction: column;
 
     img {
-      max-width: 500px;
+      //max-width: 500px;
     }
   }
 
@@ -95,6 +87,9 @@
 
   .attraction__photo {
     order: 1;
+    img {
+      width: 250px;
+    }
   }
 }
 
@@ -103,7 +98,30 @@
     flex-direction: column;
 
     img {
-      max-width: 350px;
+      max-width: 250px;
+    }
+  }
+
+  .attraction__message {
+    margin-top: 50px;
+    order: 2;
+  }
+
+  .attraction__photo {
+    order: 1;
+    img {
+      width: 250px;
+    }
+  }
+}
+
+@media screen and (max-width: 568px) {
+
+  .attraction__element {
+    flex-direction: column;
+
+    img {
+      max-width: 300px;
     }
   }
 
@@ -113,36 +131,5 @@
 
   .attraction__photo {
     order: 1;
-  }
-}
-
-@media screen and (max-width: 568px) {
-  .attraction {
-    .attraction__element {
-      flex-direction: column;
-      position: relative;
-
-      img {
-        max-width: 300px;
-      }
-    }
-
-    .attraction__element::before {
-      position: absolute;
-      content: "";
-      top: 10px;
-      width: 5px;
-      left: -17px;
-      border-radius: 4px;
-      height: 111px;
-    }
-
-    .attraction__message {
-      order: 2;
-    }
-
-    .attraction__photo {
-      order: 1;
-    }
   }
 }

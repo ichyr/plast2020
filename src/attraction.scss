@@ -31,15 +31,23 @@
     width: 70%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 55px;
+    //align-items: center;
+    margin-top: 75px;
 
     .attraction__photo {
-      height: 200px;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 350px;
+      }
     }
 
     .attraction__message {
       padding: 22px;
+      border-left: 5px solid #221131;
+      display: flex;
+      align-items: center;
+      width: 100%;
     }
 
     .attraction__main-title {
@@ -50,7 +58,7 @@
       line-height: 31px;
       /* identical to box height */
       color: #000000;
-      margin-bottom: 25px;
+      //margin-bottom: 25px;
     }
 
     .attraction__subtitle {
@@ -98,14 +106,14 @@
         max-width: 350px;
       }
     }
+  }
 
-    .attraction__message {
-      order: 2;
-    }
+  .attraction__message {
+    order: 2;
+  }
 
-    .attraction__photo {
-      order: 1;
-    }
+  .attraction__photo {
+    order: 1;
   }
 
   @media screen and (max-width: 568px) {

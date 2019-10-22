@@ -4,6 +4,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("https://i.ibb.co/L8KRk2Q/Group-62.png");
+
+  .attraction__element__wrapper {
+    display: flex;
+  }
 
   .attraction__title {
     font-family: PT Sans;
@@ -13,7 +18,13 @@
     line-height: 41px;
     text-align: center;
     color: #000000;
+  }
 
+  .attraction__element__border {
+    min-width: 8px;
+    height: auto;
+    background-color: #221131;
+    border-radius: 4px;
   }
 
   .attraction__element {
@@ -32,8 +43,8 @@
     }
 
     .attraction__message {
+      padding: 22px;
       border-left: 5px solid #221131;
-      padding: 15px;
       display: flex;
       align-items: center;
       width: 100%;
@@ -60,16 +71,8 @@
       color: #000000;
     }
   }
-}
-
-//.attraction__pipe {
-//  height: 100px;
-//  width: 2px;
-//  border-right: 1px solid red;
-//}
 
 @media screen and (max-width: 968px) {
-
   .attraction__element {
     flex-direction: column;
 
@@ -90,9 +93,7 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
-
   .attraction__element {
     flex-direction: column;
 
@@ -119,21 +120,16 @@
   .attraction__element {
     flex-direction: column;
 
-
     img {
-      max-width: 250px;
+      max-width: 300px;
     }
   }
 
   .attraction__message {
-    margin-top: 25px;
     order: 2;
   }
 
   .attraction__photo {
-    img {
-      width: 250px;
-    }
     order: 1;
   }
 }

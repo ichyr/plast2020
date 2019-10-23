@@ -10,16 +10,22 @@
   font-family: PT Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 31px;
-  /* identical to box height */
-
+  font-size: 32px;
+  line-height: 41px;
   text-align: center;
-
   color: #000000;
+  opacity: 0.7;
+
+}
+.project-list__el__wrapper {
+
+  display: flex;
+  justify-content: center;
+  background: url(https://i.ibb.co/L8KRk2Q/Group-62.png) center center;
 }
 
 .project-list__element {
+ // width: 80%;
   display: flex;
   align-items: center;
 }
@@ -32,6 +38,10 @@
   line-height: 31px;
   opacity: 0.7;
   color: #000000;
+  margin-bottom: 25px;
+  text-align: left;
+  width: 100%;
+  max-width: 500px;
 }
 
 .project-list__progress-text {
@@ -76,7 +86,9 @@
 .progress-bar {
   box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
 }
-
+.project-list__message {
+  text-align: left;
+}
 @media screen and (max-width: 968px) {
 
   .project-list__element {

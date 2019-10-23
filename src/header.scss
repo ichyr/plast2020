@@ -3,6 +3,22 @@
   border: 0;
 }
 
+.header {
+  padding: 0.5em 32px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 0.5em 64px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    padding: 0.5em 128px;
+  }
+}
+
 .header .header-toggle_title {
   color: #3d1e5c;
   font-family: 'Myriad Pro';
@@ -21,4 +37,10 @@
   /* identical to box height */
 
   color: #3d1e5c;
+}
+
+.header .header-text-item {
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 25px;
 }

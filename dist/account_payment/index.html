@@ -4,35 +4,50 @@
     <meta charset="UTF-8">
     <title>Пласт 2020</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-75932013-5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75932013-5"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-
-	gtag('config', 'UA-75932013-5');
-	</script>
+      gtag('config', 'UA-75932013-5');
+    </script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">ПЛАСТ</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light header">
+        <a class="navbar-brand header-toggle_title" href="#">ПЛАСТ</a>
+        <button class="navbar-toggler header-toggle__button" type="button" data-toggle="collapse"
+          data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <!--        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
-                <a class="nav-item nav-link" href="../index.html#attraction">На що підуть кошти</a>
-                <a class="nav-item nav-link" href="../index.html#donations-counter">Лічильник пожертв</a>
-                <a class="nav-item nav-link" href="../index.html#about">Про Пласт</a>
-                <a class="nav-item nav-link" href="../index.html#supporters">Благодійники</a>
-                <a class="nav-item nav-link" href="../index.html#contacts">Контакти</a>
-                <a class="nav-item nav-link" href="../faq/index.html">Запитання і відповіді</a>
-            </div>
+          <div class="navbar-nav  ml-auto">
+            <!--        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
+            <a class="nav-item nav-link header-text-item" href="#attraction">На що підуть кошти</a>
+            <a class="nav-item nav-link header-text-item" href="#donations-counter">Лічильник пожертв</a>
+            <a class="nav-item nav-link header-text-item" href="#about">Про Пласт</a>
+           <!-- <a class="nav-item nav-link header-text-item" href="#supporters">Благодійники</a> -->
+            <a class="nav-item nav-link header-text-item" href="#contacts">Контакти</a>
+            <a class="nav-item nav-link header-text-item" href="./faq/index.html">Запитання і відповіді</a>
+            <a class="nav-item nav-link" href="http://instagram.com/plastua">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a class="nav-item nav-link" href="http://fb.com/PlastUA">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+      
+              <a class="nav-item nav-link" href="http://twitter.com/plast" >
+                <i class="fab fa-twitter"></i>
+              </a>
+          </div>
         </div>
-    </nav>
+      </nav>
     <div class="account-payment">
         <div class="account-payment__details">
             <span>Банківський переказ на рахунок у <strong>гривні</strong>:</span>

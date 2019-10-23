@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Пласт 2020</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<head>
+  <meta charset="UTF-8" />
+  <title>Пласт 2020</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./MyriadPro/stylesheet.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <script
+  <link rel="stylesheet" href="./MyriadPro/stylesheet.css" />
+
+  <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-75932013-5"
     ></script>
@@ -28,475 +26,530 @@
 
       gtag('config', 'UA-75932013-5');
     </script>
-  </head>
-  <body>
-    <script type="text/javascript" src="bundle.js"></script>
+</head>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light header">
-      <a class="navbar-brand header-toggle_title" href="#">ПЛАСТ</a>
-      <button
-        class="navbar-toggler header-toggle__button"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav  ml-auto">
-          <!--        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
-          <a class="nav-item nav-link" href="#attraction">На що підуть кошти</a>
-          <a class="nav-item nav-link" href="#donations-counter"
-            >Лічильник пожертв</a
-          >
-          <a class="nav-item nav-link" href="#about">Про Пласт</a>
-          <a class="nav-item nav-link" href="#supporters">Благодійники</a>
-          <a class="nav-item nav-link" href="#contacts">Контакти</a>
-          <a class="nav-item nav-link" href="./faq/index.html"
-            >Запитання і відповіді</a
-          >
-          <a class="nav-item nav-link" href="#">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a class="nav-item nav-link" href="">
-            <i class="fab fa-facebook-square"></i>
-          </a>
+<body>
+  <script type="text/javascript" src="bundle.js"></script>
 
-          <a class="nav-item nav-link">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </div>
-      </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light header">
+    <a class="navbar-brand header-toggle_title" href="#">ПЛАСТ</a>
+    <button class="navbar-toggler header-toggle__button" type="button" data-toggle="collapse"
+      data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav  ml-auto">
+        <!--        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
+        <a class="nav-item nav-link header-text-item" href="#attraction">На що підуть кошти</a>
+        <a class="nav-item nav-link header-text-item" href="#donations-counter">Лічильник пожертв</a>
+        <a class="nav-item nav-link header-text-item" href="#about">Про Пласт</a>
+       <!-- <a class="nav-item nav-link header-text-item" href="#supporters">Благодійники</a> -->
+        <a class="nav-item nav-link header-text-item" href="#contacts">Контакти</a>
+        <a class="nav-item nav-link header-text-item" href="./faq/index.html">Запитання і відповіді</a>
+        <a class="nav-item nav-link" href="http://instagram.com/plastua">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a class="nav-item nav-link" href="http://fb.com/PlastUA">
+          <i class="fab fa-facebook-square"></i>
+        </a>
 
-    <div class="support-banner">
-      <div class="support-banner__message">
-        <div class="support-banner__text">
-          <h3 class="support-banner__main-title">
-            Я підтримую Пласт
-          </h3>
-          <div class="support-banner__subtitle">
-            Прагнемо, щоб більше молодих українців долучилися до Пласту й
-            отримали знання та вміння, що дозволять їм надихати та об’єднувати
-            однодумців в єдину хвилю змін для сталого розвитку України.
-          </div>
-        </div>
-        <div class="support-banner__lily-wrapper">
-          <div class="support-banner__lily"></div>
-        </div>
+        <a class="nav-item nav-link" href="http://twitter.com/plast" >
+          <i class="fab fa-twitter"></i>
+        </a>
       </div>
     </div>
-    <div class="donations" id="donations">
-      <div class="donations__title">
-        <h3 class="donations_main-title">
-          Зробити пожертву
+  </nav>
+
+  <div class="support-banner">
+    <div class="support-banner__message">
+      <div class="support-banner__text">
+        <h3 class="support-banner__main-title">
+          Я підтримую Пласт
         </h3>
-        <div class="donations__subtitle">
-          Корисна будь-яка сума
+        <div class="support-banner__subtitle">
+          Прагнемо, щоб більше молодих українців долучилися до Пласту й
+          отримали знання та вміння, що дозволять їм надихати та об’єднувати
+          однодумців в єдину хвилю змін для сталого розвитку України.
         </div>
       </div>
-
-      <div class="donations__buttons">
-        <div class="donations__button">
-          <a
-            href="https://www.google.com/url?q=https://www.liqpay.ua/api/3/checkout?data%3DeyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTU4NzY0MTcwNjg3IiwiYW1vdW50IjoiMTAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCR0LvQsNCz0L7QtNGW0LnQvdC40Lkg0LLQvdC10YHQvtC6INC90LAg0YDQvtC30LLQuNGC0L7QuiDQstC40YXQvtCy0L3QuNGFINC%252F0YDQvtCz0YDQsNC8IiwidHlwZSI6ImRvbmF0ZSIsImxhbmd1YWdlIjoidWsifQ%253D%253D%26signature%3DnXOpfKJolPpc6hAfknTEWIb1k3Y%253D&sa=D&ust=1571733349461000&usg=AFQjCNElYxpQ0ruKoxob0qQOB1aorNXI6Q"
-            class="donations__link"
-          ></a>
-          <img
-            src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571670607/1280px-LIQPAY.svg_xd226p.png"
-          />
-        </div>
-        <div class="donations__button">
-          <a href="https://api.fondy.eu/s/KEVeF" class="donations__link"></a>
-          <img
-            src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571670939/fondy_logo_correct_w_qbsjfk.png"
-          />
-        </div>
-        <div class="donations__button">
-          <a href="#" class="donations__link"></a>
-          <img
-            class="background--white"
-            src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571671036/PP_logo_h_100x26_alvr5u.png"
-          />
-        </div>
-        <div class="donations__button">
-          <a href="./account_payment/index.html" class="donations__link"></a>
-          Оплата рахунком
-        </div>
+     <div class="support-banner__lily-wrapper"> 
+        <div class="support-banner__lily"></div>
       </div>
-
-      <div class="donations__help">
-        <div class="donations__help-message">
-          Не можете внести допомогу через запропоновані нами сервіси?
-        </div>
-        <div class="donations__help-link">
-          <a href="mailto:digital@plast.org.ua">Звернутись за підтримкою</a>
-        </div>
+   </div> 
+  </div>
+  <div class="donations" id="donations">
+    <div class="donations__title">
+      <h3 class="donations_main-title">
+        Зробити пожертву
+      </h3>
+      <div class="donations__subtitle">
+        Корисна будь-яка сума
       </div>
     </div>
 
-    <div class="attraction" id="attraction">
-      <h3 class="attraction__title">На що підуть кошти</h3>
-      <div class="attraction__element">
+    <div class="donations__buttons">
+      <div class="donations__button">
+        <a href="https://www.liqpay.ua/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTU4NzY0MTcwNjg3IiwiYW1vdW50IjoiMTAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCR0LvQsNCz0L7QtNGW0LnQvdC40Lkg0LLQvdC10YHQvtC6INC90LAg0YDQvtC30LLQuNGC0L7QuiDQstC40YXQvtCy0L3QuNGFINC%2F0YDQvtCz0YDQsNC8IiwidHlwZSI6ImRvbmF0ZSIsImxhbmd1YWdlIjoidWsifQ%3D%3D&signature=nXOpfKJolPpc6hAfknTEWIb1k3Y%3D" class="donations__link"></a>
+        <img src="https://res.cloudinary.com/unknowners/image/upload/v1571777208/liqpay_kasoyn.png" />
+      </div>
+     <!-- поки не робочі платіжки
+      <div class="donations__button">
+        <a href="#" class="donations__link"></a>
+        <img src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571670939/fondy_logo_correct_w_qbsjfk.png" />
+      </div>
+      <div class="donations__button">
+        <a href="#" class="donations__link"></a>
+        <img class="background--white"
+          src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571671036/PP_logo_h_100x26_alvr5u.png" />
+      </div> 
+      -->
+      <div class="donations__button">
+        <a href="./account_payment/index.html" class="donations__link"></a>
+        Оплата рахунком
+      </div>
+    </div>
+
+    <div class="donations__help">
+      <div class="donations__help-message">
+        Не можете внести допомогу через запропоновані нами сервіси?
+      </div>
+      <div class="donations__help-link">
+        <a href="mailto:digital@plast.org.ua">Звернутись за підтримкою</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="attraction" id="attraction">
+    <h3 class="attraction__title">На що підуть кошти</h3>
+    <div class="attraction__element">
+      <div class="attraction__element__wrapper">
+        <div class="attraction__element__border"></div>
         <div class="attraction__message">
+
           <div class="attraction__main-title">
             Залучення та навчання виховників, що працюють з дітьми
           </div>
-          <div class="attraction__subtitle"></div>
-        </div>
-        <div class="attraction__photo">
-          <img
-            src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571666209/%D0%9C%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BA%D0%B0_%D0%9B%D1%96%D1%81%D0%BE%D0%B2%D0%BE%D1%96%CC%88_%D1%88%D0%BA%D0%BE%D0%BB%D0%B8_certrf.jpg"
-          />
+          <div class="attraction__subtitle">
+            У 2020 році відбудеться 20 навчальних тренінгів для 100 виховників, що працюють з дітьми за пластовою
+            системою виховання. Виховники є основою діяльності організації, оскільки в Пласті дитину завжди супроводжує
+            дорослий, що навчає, радить, надихає та є прикладом відповідального, активного громадянина, яким має
+            стати кожен.
+          </div>
         </div>
       </div>
+      <div class="attraction__photo">
+        <img src="https://res.cloudinary.com/unknowners/image/upload/v1571779417/1_klg2wa.png" />
+      </div>
+    </div>
 
-      <div class="attraction__element">
+    <div class="attraction__element">
+      <div class="attraction__element__wrapper">
+        <div class="attraction__element__border"></div>
         <div class="attraction__message">
           <div class="attraction__main-title">
             Створення нових осередків та забезпечення їх функціонування
           </div>
-          <div class="attraction__subtitle"></div>
-        </div>
-        <div class="attraction__photo">
-          <img
-            src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571742524/%D0%A4%D0%BE%D1%82%D0%BE_%D0%90%D1%80%D1%82%D0%B5%D0%BC%D0%B0_%D0%96%D1%83%D0%BA%D0%BE%D0%B2%D0%B0_tabbao.jpg"
-          />
+          <div class="attraction__subtitle">
+            Розвиток Пласту в регіонах спрямованиий на те, щоб діти та молодь по всій Україні мали можливість
+            розвиватися в Пласті. За 2020 рік плануємо створити ще 15 осередків Пласту на Півночі, Півдні та Сході. Прагнемо, щоб в
+            Україні зростала кількість самостійних, свідомих та ініціативних молодих людей, що братимуть відповідальність за своє
+            майбутнє.
+          </div>
         </div>
       </div>
-      <div class="attraction__element">
+      <div class="attraction__photo">
+        <img src="https://res.cloudinary.com/unknowners/image/upload/v1571779417/2_jrbelb.png" />
+      </div>
+    </div>
+
+    <div class="attraction__element">
+      <div class="attraction__element__wrapper">
+        <div class="attraction__element__border"></div>
         <div class="attraction__message">
           <div class="attraction__main-title">
             Забезпечення організаційного функціонування Пласту
           </div>
-          <div class="attraction__subtitle"></div>
-        </div>
-        <div class="attraction__photo">
-          <img
-            src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571742553/%D0%A1%D0%BF%D0%BB%D0%B0%D0%B2%D0%BB%D1%8F%D0%BD%D0%BD%D1%8F_w7ishj.jpg"
-          />
+          <div class="attraction__subtitle">
+            Організаційний розвиток Пласту сьогодні становить одну із ключових цілей стратегії організації. Пласт
+            гостро потребує налагодження системного та ефективного управління. Зокрема у 2020 році ми плануємо
+            <ul>
+            <li>запровадити програму підвищення кваліфікації керівників регіональних осередків Пласту.
+            <li>розробити мобільний додаток, який дозволить ефективніше адаптувати та інтегрувати нових волонтерів.
+              <li>розробити СRM- систему що дозволить автоматизувати процеси роботи з волонетрами, які зараз здійснюються
+            “вручну”.
+            </ul>
+          </div>
         </div>
       </div>
+      <div class="attraction__photo">
+        <img src="https://res.cloudinary.com/unknowners/image/upload/v1571779417/3_uwna0u.png" />
+      </div>
+    </div>
 
-      <div class="attraction__element">
-        <div class="attraction__pipe"></div>
-
+    <div class="attraction__element">
+      <div class="attraction__element__wrapper">
+        <div class="attraction__element__border"></div>
         <div class="attraction__message">
+
           <div class="attraction__main-title">
             Організація та проведення 25 таборів
           </div>
-          <div class="attraction__subtitle"></div>
+          <div class="attraction__subtitle">
+            В Пласті відвідуваність всеукраїнських заходів дітьми з сільської місцевості ледь досягає 50%, в той час як з
+            великих міст - не менше 70%. Доступність Пласту для кожної дитини - прагнемо, щоб 100% дітей в Пласті мали фінансову
+            спроможність відвідати пластові заходи!
+          </div>
         </div>
-        <div class="attraction__photo">
-          <img
-            src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571742778/%D0%92%D0%B0%D1%82%D1%80%D0%B0_%D1%96%D1%81%D0%BA%D1%80%D0%B0_ktbnet.jpg"
-          />
+      </div>
+      <div class="attraction__photo">
+        <img src="https://res.cloudinary.com/unknowners/image/upload/v1571779417/4_n0qjj2.png" />
+      </div>
+    </div>
+  </div>
+
+  <div class="donations-counter" id="donations-counter">
+    <h3 class="donations-counter__main-title">
+      Лічильник пожертв
+    </h3>
+    <div class="donations-counter__list">
+      <div class="donations-bg"></div>
+      <div class="donations-counter__element">
+        <div class="progress vertical">
+          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+            aria-valuemax="100"  style="width: 15%;"></div>
+        </div>
+        <div class="donations-counter__message">
+          <div class="donations-counter__sum">153</div>
+          <div class="donations-counter__small-text">тис. грн пожертв</div>
+        </div>
+      </div>
+      <div class="donations-counter__element">
+        <div class="progress vertical">
+          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+            aria-valuemax="100"  style="width: 27%;"></div>
+        </div>
+        <div class="donations-counter__message">
+          <div class="donations-counter__sum">207</div>
+          <div class="donations-counter__small-text">доброчинців</div>
+        </div>
+      </div>
+      <div class="donations-counter__element">
+        <div class="progress vertical">
+          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+            aria-valuemax="100"  style="width: 70%;"></div>
+        </div>
+        <div class="donations-counter__message">
+          <div class="donations-counter__sum">184</div>
+          <div class="donations-counter__small-text">дні до завершення</div>
         </div>
       </div>
     </div>
 
-    <div class="donations-counter" id="donations-counter">
+    <div class="project-list">
       <h3 class="donations-counter__main-title">
-        Лічильник пожертв
+        Список проектів
       </h3>
-      <div class="donations-counter__list">
-        <div class="donations-counter__element">
-          <div class="progress vertical">
-            <div
-              class="progress-bar progress-bar-info"
-              role="progressbar"
-              aria-valuenow="90"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 40%;"
-            ></div>
-          </div>
-          <div class="donations-counter__message">
-            <div class="donations-counter__sum">4.5Т</div>
-            <div class="donations-counter__small-text">грн пожертв</div>
-          </div>
-        </div>
-        <div class="donations-counter__element">
-          <div class="progress vertical">
-            <div
-              class="progress-bar progress-bar-info"
-              role="progressbar"
-              aria-valuenow="90"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 40%;"
-            ></div>
-          </div>
-          <div class="donations-counter__message">
-            <div class="donations-counter__sum">4.5Т</div>
-            <div class="donations-counter__small-text">людей</div>
-          </div>
-        </div>
-        <div class="donations-counter__element">
-          <div class="progress vertical">
-            <div
-              class="progress-bar progress-bar-info"
-              role="progressbar"
-              aria-valuenow="90"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 40%;"
-            ></div>
-          </div>
-          <div class="donations-counter__message">
-            <div class="donations-counter__sum">4.5Т</div>
-            <div class="donations-counter__small-text">годин</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-list">
-        <div class="project-list__title">
-          Список проектів
-        </div>
-
+     <!-- <div class="project-list__title">
+        Список проектів
+      </div> -->
+      <div class="project-list__el__wrapper">
         <div class="project-list__element">
           <div class="project-list__message">
             <div class="project-list__title">
-              5 таборів для новацтва влітку 2020 року
+              25 таборів для дітей різного віку влітку 2020 року
             </div>
             <div class="project-list__progress">
               <div class="progres-list__progress">
                 <div class="progress horizontal">
-                  <div
-                    class="progress-bar progress-bar-info"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    style="width: 40%;"
-                  ></div>
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                    aria-valuemax="100" style="width: 2%;"></div>
                 </div>
-                <div class="project-list__percent">80%</div>
+                <div class="project-list__percent">0%</div>
               </div>
               <div class="project-list__progress-text">
-                зібрано 6млн з 30млн грн
+                 необхідно 2,5 млн грн
               </div>
             </div>
           </div>
           <div class="project-list__image">
-            <img
-              src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571421699/image_5_ljojnw.png"
-            />
+            <img src="https://res.cloudinary.com/unknowners/image/upload/v1571803279/ART_5858_pgnsqu.jpg" />
           </div>
         </div>
+      </div>
 
+      <div class="project-list__el__wrapper">
+      <div class="project-list__element">
+        <div class="project-list__message">
+          <div class="project-list__title">
+            100 виховників, що працюють з дітьми, залучено та навчено
+          </div>
+          <div class="project-list__progress">
+            <div class="progres-list__progress">
+              <div class="progress horizontal">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 4%;"></div>
+              </div>
+              <div class="project-list__percent">1%</div>
+            </div>
+            <div class="project-list__progress-text">
+              зібрано 18 тис.грн з  1,8 млн грн
+            </div>
+          </div>
+        </div>
+        <div class="project-list__image">
+          <img src="https://res.cloudinary.com/unknowners/image/upload/v1571803280/Plast_Kyiv-45_ldevnc.jpg" />
+        </div>
+      </div>
+      </div>
+      <div class="project-list__el__wrapper">
         <div class="project-list__element">
           <div class="project-list__message">
             <div class="project-list__title">
-              5 таборів для новацтва влітку 2020 року
+              15 осередків Пласту створено: Північ, Південь, Схід
             </div>
             <div class="project-list__progress">
               <div class="progres-list__progress">
                 <div class="progress horizontal">
-                  <div
-                    class="progress-bar progress-bar-info"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    style="width: 40%;"
-                  ></div>
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                    aria-valuemax="100" style="width: 8%"></div>
                 </div>
-                <div class="project-list__percent">80%</div>
+                <div class="project-list__percent">4,5%</div>
               </div>
               <div class="project-list__progress-text">
-                зібрано 6млн з 30млн грн
+                зібрано 112 тис. грн з 2,5 млн грн
               </div>
             </div>
           </div>
           <div class="project-list__image">
-            <img
-              src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571421699/image_5_ljojnw.png"
-            />
+            <img src="https://res.cloudinary.com/unknowners/image/upload/v1571803279/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BD%D0%B5%D0%B4%D1%96%D0%BB%D0%BE%D0%BA_%D0%A4%D0%BE%D1%82%D0%BE_%D0%90%D1%80%D1%82%D0%B5%D0%BC%D0%B0_%D0%96%D1%83%D0%BA%D0%BE%D0%B2%D0%B0_mxildj.jpg" />
           </div>
         </div>
-
+      </div>
+      <div class="project-list__el__wrapper">
+      <div class="project-list__element">
+        <div class="project-list__message">
+          <div class="project-list__title">
+            Онлайн-посібник Пластуна для дітей 11-18 років розроблено
+          </div>
+          <div class="project-list__progress">
+            <div class="progres-list__progress">
+              <div class="progress horizontal">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 2%;"></div>
+              </div>
+              <div class="project-list__percent">0%</div>
+            </div>
+            <div class="project-list__progress-text">
+              необхідно 430 тис. грн
+            </div>
+          </div>
+        </div>
+        <div class="project-list__image">
+          <img src="https://res.cloudinary.com/unknowners/image/upload/v1571803279/%D0%A4%D0%BE%D1%82%D0%BE_%D0%90%D1%80%D1%82%D0%B5%D0%BC%D0%B0_%D0%96%D1%83%D0%BA%D0%BE%D0%B2%D0%B0_bo2vr4.jpg" />
+        </div>
+      </div>
+      </div>
+      <div class="project-list__el__wrapper">
         <div class="project-list__element">
           <div class="project-list__message">
             <div class="project-list__title">
-              5 таборів для новацтва влітку 2020 року
+              Базу даних та аналітики Е-Plast  для роботи з волонтерами оновлено
             </div>
             <div class="project-list__progress">
               <div class="progres-list__progress">
                 <div class="progress horizontal">
-                  <div
-                    class="progress-bar progress-bar-info"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                    style="width: 40%;"
-                  ></div>
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                       aria-valuemax="100" style="width: 1%"></div>
                 </div>
-                <div class="project-list__percent">80%</div>
+                <div class="project-list__percent">0%</div>
               </div>
               <div class="project-list__progress-text">
-                зібрано 6млн з 30млн грн
+                необхідно 2 млн грн
               </div>
             </div>
           </div>
           <div class="project-list__image">
-            <img
-              src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571421699/image_5_ljojnw.png"
-            />
+            <img src="https://res.cloudinary.com/unknowners/image/upload/v1571803279/ART_5557_qd5wpf.jpg" />
           </div>
         </div>
-
-        <div class="about" id="about">
-          <div class="about__background"></div>
-          <div class="about__message">
-            <div class="about__title">Про Пласт</div>
-            <div class="about__subtitle">
-              Прагнемо, щоб більше молодих українців долучилися до Пласту й
-              отримали знання та вміння, що дозволять їм надихати та об’єднувати
-              однодумців в єдину хвилю змін для сталого розвитку України.
+      </div>
+      <div class="project-list__el__wrapper">
+      <div class="project-list__element">
+        <div class="project-list__message">
+          <div class="project-list__title">
+            Мобільний додаток для інтеграції волонтерів PlasAp доопрацьовано та запущено
+          </div>
+          <div class="project-list__progress">
+            <div class="progres-list__progress">
+              <div class="progress horizontal">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                     aria-valuemax="100" style="width: 8%;"></div>
+              </div>
+              <div class="project-list__percent">3,6%</div>
+            </div>
+            <div class="project-list__progress-text">
+              зібрано 23 тис.грн з  630 тис. грн
             </div>
           </div>
-          <div class="about__image">
-            <img
-              src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571734893/about_oloy4r.png"
-            />
+        </div>
+        <div class="project-list__image">
+          <img src="https://res.cloudinary.com/unknowners/image/upload/v1571803280/%D0%97%D0%B8%D0%BC%D0%BE%D0%B2%D0%B0_%D0%BC%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BA%D0%B0_gcrl2f.jpg" />
+        </div>
+      </div>
+      </div>
+      <div class="project-list__el__wrapper">
+        <div class="project-list__element">
+          <div class="project-list__message">
+            <div class="project-list__title">
+              Управлінці 30 осередків покращили навики адміністрування через “Школу організаційного розвитку”
+            </div>
+            <div class="project-list__progress">
+              <div class="progres-list__progress">
+                <div class="progress horizontal">
+                  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                       aria-valuemax="100" style="width: 2%"></div>
+                </div>
+                <div class="project-list__percent">0%</div>
+              </div>
+              <div class="project-list__progress-text">
+                необхідно 640 тис. грн
+              </div>
+            </div>
+          </div>
+          <div class="project-list__image">
+            <img src="https://res.cloudinary.com/unknowners/image/upload/v1571803279/%D0%9B%D1%96%D1%81%D0%BE%D0%B2%D0%B0_%D1%88%D0%BA%D0%BE%D0%BB%D0%B0_%D0%A4%D0%BE%D1%82%D0%BE_%D0%9E%D0%BB%D0%B5%D0%B3%D0%B0_%D0%9E%D1%81%D0%B0%D0%B4%D1%86%D1%96_c6zozt.jpg" />
           </div>
         </div>
       </div>
 
-      <div class="supporters" id="supporters">
-        <div class="supporters__title">
-          Благодійники
+    <div class="about" id="about">
+        <div class="about__background"></div>
+        <div class="about__message">
+          <div class="about__title">Про Пласт</div>
+          <div class="about__subtitle">
+            Пласт — це найбільша молодіжна організація України. Ми діємо вже 107 років. Наша ціль: виховувати проактивних громадян України. Таких, що готові змінюватись та змінювати власне оточення — робити світ довкола кращим.
+            Пластуни вміють мріяти і втілювати власні мрії в суспільно-корисні проекти. Щоб наша організація могла працювати у повну силу, нам бракує ресурсів. Будь-яка ваша пожертва буде корисною для організації.
+
+          </div>
         </div>
-        <div class="supporters__list">
-          <div class="supporters__element">
-            Петро Конашевич - Сагайдачний - фізична особа
-          </div>
+        <div class="about__image">
+          <img src="https://res.cloudinary.com/dhcba8amn/image/upload/v1571734893/about_oloy4r.png" />
+        </div>
+      </div>
+    </div>
+<!-- "Розробити, але не прикріплювати доки сторінку. Вводити вручну як будуть дані з першого дні роботи."
+    <div class="supporters" id="supporters">
+      <div class="supporters__title">
+        Благодійники
+      </div>
+      <div class="supporters__list">
+        <div class="supporters__element">
+          Петро Конашевич - Сагайдачний - фізична особа
+        </div>
 
-          <div class="supporters__element">
-            Петро Конашевич - Сагайдачний - фізична особа
-          </div>
+        <div class="supporters__element">
+          Петро Конашевич - Сагайдачний - фізична особа
+        </div>
 
-          <div class="supporters__element">
-            Петро Конашевич - Сагайдачний - фізична особа
-          </div>
+        <div class="supporters__element">
+          Петро Конашевич - Сагайдачний - фізична особа
+        </div>
 
-          <div class="supporters__element">
-            Петро Конашевич - Сагайдачний - фізична особа
-          </div>
+        <div class="supporters__element">
+          Петро Конашевич - Сагайдачний - фізична особа
+        </div>
 
-          <div class="supporters__element">
-            Петро Конашевич - Сагайдачний - фізична особа
+        <div class="supporters__element">
+          Петро Конашевич - Сагайдачний - фізична особа
+        </div>
+      </div>
+    </div>
+    -->
+
+    <div class="contacts" id="contacts">
+      <div class="contacts__element">
+        <div class="contacts__title">
+          Контакти організації
+        </div>
+        <div class="contacts__text">
+          <span>Електронна пошта - <strong>fundraising@plast.org.ua,</strong></span>
+          <span>Телефон - <strong>+38 095 797 88 58,</strong></span>
+          <span>Адреса - <strong> м. Київ, вул. Гончара, 47 В,01034</strong></span>
+          <div class="contacts__socials">
+            <a href="fb.com/PlastUA">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="instagram.com/plastua">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="twitter.com/plast">
+              <i class="fab fa-twitter"></i>
+            </a>
           </div>
         </div>
       </div>
-
-      <div class="contacts" id="contacts">
-        <div class="contacts__element">
-          <div class="contacts__title">
-            Контакти організації
-          </div>
-          <div class="contacts__text">
-            <span>Тарас Григорович Шевченко</span>
-            <span>Електронна пошта - <strong>info@plast.org.ua</strong></span>
-            <span>Телефон - <strong>063 431 53 64</strong></span>
-            <div class="contacts__socials">
-              <a href="">
-                <i class="fab fa-facebook-square"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a>
-                <i class="fab fa-twitter"></i>
-              </a>
-            </div>
-          </div>
+      <div class="contacts__element">
+        <div class="contacts__title">
+          Контакти Голови організації
         </div>
-        <div class="contacts__element">
-          <div class="contacts__title">
-            Контакти Голови організації
-          </div>
+        <div class="contacts__text">
+          <span> <strong>Станіслав Андрійчук</strong></span>
+          <span>Електронна пошта - <strong>info@plast.org.ua</strong></span>
+         <!-- <span>Телефон - <strong>063 431 53 64</strong></span> -->
 
-          <div class="contacts__text">
-            <span>Електронна пошта - <strong>info@plast.org.ua</strong></span>
-            <span>Телефон - <strong>063 431 53 64</strong></span>
-            <span>Адреса - <strong>м. Львів; вул.Шевченка 18</strong></span>
-            <div class="contacts__socials">
-              <a href="">
-                <i class="fab fa-facebook-square"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a>
-                <i class="fab fa-twitter"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+          <div class="contacts__socials">
+            <a href="https://www.facebook.com/st.andrijchuk">
+              <i class="fab fa-facebook-square"></i>
+            </a>
 
-      <div class="footer">
-        <div class="footer__logo">ПЛАСТ</div>
-        <div class="footer__links">
-          <div class="footer__split">
-            <div class="footer__link">
-              <a class="nav-item nav-link" href="#attraction"
-                >На що підуть кошти</a
-              >
-            </div>
-            <div class="footer__link">
-              <a class="nav-item nav-link" href="#donations-counter"
-                >Лічильник пожертв</a
-              >
-            </div>
-            <div class="footer__link">
-              <a class="nav-item nav-link" href="#about">Про Пласт</a>
-            </div>
           </div>
-          <div class="footer__split">
-            <div class="footer__link">
-              <a class="nav-item nav-link" href="#supporters">Благодійники</a>
-            </div>
-            <div class="footer__link">
-              <a class="nav-item nav-link" href="#contacts">Контакти</a>
-            </div>
-            <div class="footer__link">
-              <a class="nav-item nav-link" href="/faq">Запитання і відповіді</a>
-            </div>
-          </div>
-        </div>
-        <div class="footer__button">
-          <a href="#donations">Зробити пожертву</a>
         </div>
       </div>
     </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <div class="footer">
+      <div class="footer__logo">ПЛАСТ</div>
+      <div class="footer__links">
+        <div class="footer__split">
+          <div class="footer__link">
+            <a class="nav-item nav-link" href="#attraction">На що підуть кошти</a>
+          </div>
+          <div class="footer__link">
+            <a class="nav-item nav-link" href="#donations-counter">Лічильник пожертв</a>
+          </div>
+          <div class="footer__link">
+            <a class="nav-item nav-link" href="#about">Про Пласт</a>
+          </div>
+        </div>
+        <div class="footer__split">
+         <!-- <div class="footer__link">
+            <a class="nav-item nav-link" href="#supporters">Благодійники</a>
+          </div> -->
+          <div class="footer__link">
+            <a class="nav-item nav-link" href="#contacts">Контакти</a>
+          </div>
+          <div class="footer__link">
+            <a class="nav-item nav-link" href="/faq">Запитання і відповіді</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__button">
+        <a href="#donations">Зробити пожертву</a>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://kit.fontawesome.com/6370203886.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="https://kit.fontawesome.com/6370203886.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

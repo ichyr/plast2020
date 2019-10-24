@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Plast";
+  src: url('Plast.otf');
+}
+
 .header-toggle__button.header-toggle__button {
   color: #3d1e5c;
   border: 0;
@@ -21,9 +26,8 @@
 
 .header .header-toggle_title {
   color: #3d1e5c;
-  font-family: 'Myriad Pro';
+  font-family: Plast;
   font-weight: bold;
-  font-style: italic;
 }
 
 .header .navbar-toggler-icon {

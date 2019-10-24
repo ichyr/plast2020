@@ -37,6 +37,8 @@
 .support-banner__message {
   font-family: Roboto;
   width: 60%;
+  border-radius: 4px;
+  overflow: hidden;
   min-height: 180px;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.35) 100%);
   display: flex;

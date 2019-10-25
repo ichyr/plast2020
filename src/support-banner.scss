@@ -2,20 +2,20 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 400px;
+  min-height: 530px;
   background-image: url('https://res.cloudinary.com/dhcba8amn/image/upload/v1571655961/DSC_3432_pvtdot.jpg');
   background-repeat: no-repeat;
-  background-position: top;
+  background-position-y: -90px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
 
   .support-banner__text {
+      margin: 37px 0 37px 36px; 
   }
 
   .support-banner__main-title {
-    margin-left: 50px;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -23,41 +23,47 @@
   }
 
   .support-banner__subtitle {
+    width: 591px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
   }
 }
 
 .support-banner__message {
   font-family: Roboto;
-  width: 60%;
+  width: 64%;
+  border-radius: 4px;
+  overflow: hidden;
   min-height: 180px;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.35) 100%);
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .support-banner__lily-wrapper {
-  width: 90%;
+  width: 18%;
   height: 100%;
   display: flex;
-  background: #221131;
+  overflow: hidden;
   justify-content: center;
 }
 
 .support-banner__lily {
   width: 100%;
   height: 220px;
-  background-image: url('https://res.cloudinary.com/dhcba8amn/image/upload/v1571655743/logo_njcnjk.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  position: relative;
+
+  img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
 }
 
 @media screen and (max-width: 968px) {

@@ -45,20 +45,25 @@
 }
 
 .support-banner__lily-wrapper {
-  width: 20%;
+  width: 18%;
   height: 100%;
   display: flex;
-  background: #221131;
+  overflow: hidden;
   justify-content: center;
 }
 
 .support-banner__lily {
   width: 100%;
   height: 220px;
-  background-image: url(https://res.cloudinary.com/dhcba8amn/image/upload/v1571655743/logo_njcnjk.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  position: relative;
+
+  img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
 }
 
 @media screen and (max-width: 968px) {

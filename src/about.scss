@@ -2,10 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   //padding: 50px;
-  //margin: 15px;
-  padding: 25px;
+  margin: 75px 0;
+  // padding: 25px;
   position: relative;
+}
+
+.about__element__border {
+  min-width: 8px;
+  height: auto;
+  background-color: #221131;
+  border-radius: 4px;
 }
 
 .about__message {
@@ -14,9 +22,8 @@
   flex-direction: column;
   border-left: 5px solid #221131;
   padding-left: 15px;
-  width: 60%;
+  width: 50%;
   //background: rgba(57, 22, 85, 0.03);
-
 }
 
 .about__title {
@@ -38,7 +45,20 @@
 }
 
 .about__image {
-  //position: absolute;
+  margin-left: 50px;
+  position: relative;
+  border-radius: 4px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
 }
 
 .about__background {

@@ -10,6 +10,10 @@
 
 .header {
   padding: 0.5em 32px;
+
+  img {
+    width: 35px;
+  }
 }
 
 @media (min-width: 768px) {

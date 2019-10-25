@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 25px;
+
 }
 
 .project-list__title {
@@ -21,12 +22,15 @@
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
+
+  &:nth-child(2n) {
+    background: url(https://i.ibb.co/L8KRk2Q/Group-62.png) center center;
+  }
 }
 
 .project-list__element {
   display: flex;
   align-items: center;
-  background: url(https://i.ibb.co/L8KRk2Q/Group-62.png) center center;
 }
 
 .project-list__title {

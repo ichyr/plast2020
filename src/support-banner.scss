@@ -3,7 +3,7 @@
   padding: 0;
   width: 100%;
   min-height: 400px;
-  background-image: url('https://s3.eu-central-1.amazonaws.com/donate.plast.org.ua/images/support-banner-backgroud.jpg?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aDGV1LWNlbnRyYWwtMSJHMEUCIHLvBsAn%2Bzd5jOpz5%2BI5gPooR%2BRHKsUxVDSdSoLpvPHvAiEAjq7Z9RPv%2BA%2Bv4wvVI7Sl0b0f9Ox95C58%2BDiG5CIOsk0qhQIIWBAAGgwzMDI1NDA5Mjc4MDgiDN%2FRYaLR1FfFT66iliriAW6vMfTedn3b4xeLrECqAheVG6ZawyjPXxlUbNaCt%2BYdMlCgcnGF%2F2eAtenr2E5smGyCMO9qeITAGajvexgQ%2BkvJ7JrCxkMaS1QFNvExXr1AC917YKnV%2FEeBS6pDAzeNTei2ZmUN76OdyumCfnqyygaJiCIJicVdwTu2vnSPTLGx7hsSpadL9qs%2BKJPhLoL8%2BBmvAN0TH8aPx4F2%2FslQlzC%2BDUp8%2FwjtCnxMhfQszLKPtsDYGj7d0a%2FHhRF0yhJ%2BKxZnMunZv6iu6ZfGyQWheEhUi1e4KLTOue%2BnrZPhh676iacwx%2BPP7QU6jgP%2B8AWTF4Gj2Qs9nvdh5%2Fc9ZdybRQFD8V4Ygl%2FV6RS%2BnPnioLuNEUMZaFfKZFK2GPtkGZWcCKACdZgBIEGRHSt%2FpN9CFtbNsxOxumQoBazA97ysRmDw1jxAMtxpCHlt0u08bj962uh47toqz%2FEa%2B8gSIzO9NMwFHWagNC5DqeBG9dbCqe4YNCKBPpymFdNsVW9CzJLnVDTtJMkbPU4wN4uX5uOIBQM3EIu9K9h4S%2BA7%2BrIQYov0k1cktjOEbVPwC1oGNu7F4RfSQbD8cuiF%2FCk2EPe4HIaOFcgTcepbDIdFqRM7GaUzpypPErh2lWh2QXnYemLgxA987pMKyTogp%2B3kxY%2FYHdc531H0iATwdsP3VDee%2BwqqD2B9tWTV0ZCaIxlyI%2BpDlfvWdxwXgGyJ%2FH1D8kD6bsxVpzTN%2FiKTxgd%2ByGQi%2FZY9GjKdips1fO7anXul1GBFyLMfbMX1Js6xBl4sviEOXlLKqWQuwG3zG%2F2voLHR93RKivCa2QyRwhxzH5C1R9a4tfbjNWrHVOGxRg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191026T125026Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAUM4GYGNAJ7FYHQMZ%2F20191026%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=e76051fa6bd428fba63f337c75636be02b112627c1d04eb826121085a72c8e5b');
+  background-image: url('../dist/images/support-banner-backgroud.jpg');
   background-repeat: no-repeat;
   background-position: top;
   display: flex;
@@ -58,7 +58,7 @@
 .support-banner__lily {
   width: 100%;
   height: 220px;
-  background-image: url('https://s3.eu-central-1.amazonaws.com/donate.plast.org.ua/images/support-banner-logo.jpg?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aDGV1LWNlbnRyYWwtMSJHMEUCIHLvBsAn%2Bzd5jOpz5%2BI5gPooR%2BRHKsUxVDSdSoLpvPHvAiEAjq7Z9RPv%2BA%2Bv4wvVI7Sl0b0f9Ox95C58%2BDiG5CIOsk0qhQIIWBAAGgwzMDI1NDA5Mjc4MDgiDN%2FRYaLR1FfFT66iliriAW6vMfTedn3b4xeLrECqAheVG6ZawyjPXxlUbNaCt%2BYdMlCgcnGF%2F2eAtenr2E5smGyCMO9qeITAGajvexgQ%2BkvJ7JrCxkMaS1QFNvExXr1AC917YKnV%2FEeBS6pDAzeNTei2ZmUN76OdyumCfnqyygaJiCIJicVdwTu2vnSPTLGx7hsSpadL9qs%2BKJPhLoL8%2BBmvAN0TH8aPx4F2%2FslQlzC%2BDUp8%2FwjtCnxMhfQszLKPtsDYGj7d0a%2FHhRF0yhJ%2BKxZnMunZv6iu6ZfGyQWheEhUi1e4KLTOue%2BnrZPhh676iacwx%2BPP7QU6jgP%2B8AWTF4Gj2Qs9nvdh5%2Fc9ZdybRQFD8V4Ygl%2FV6RS%2BnPnioLuNEUMZaFfKZFK2GPtkGZWcCKACdZgBIEGRHSt%2FpN9CFtbNsxOxumQoBazA97ysRmDw1jxAMtxpCHlt0u08bj962uh47toqz%2FEa%2B8gSIzO9NMwFHWagNC5DqeBG9dbCqe4YNCKBPpymFdNsVW9CzJLnVDTtJMkbPU4wN4uX5uOIBQM3EIu9K9h4S%2BA7%2BrIQYov0k1cktjOEbVPwC1oGNu7F4RfSQbD8cuiF%2FCk2EPe4HIaOFcgTcepbDIdFqRM7GaUzpypPErh2lWh2QXnYemLgxA987pMKyTogp%2B3kxY%2FYHdc531H0iATwdsP3VDee%2BwqqD2B9tWTV0ZCaIxlyI%2BpDlfvWdxwXgGyJ%2FH1D8kD6bsxVpzTN%2FiKTxgd%2ByGQi%2FZY9GjKdips1fO7anXul1GBFyLMfbMX1Js6xBl4sviEOXlLKqWQuwG3zG%2F2voLHR93RKivCa2QyRwhxzH5C1R9a4tfbjNWrHVOGxRg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191026T125055Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAUM4GYGNAJ7FYHQMZ%2F20191026%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=4663aa3c28d501f0cabfe080238b0d7045b1bf475827294e368ef3df407846a3');
+  background-image: url('../dist/images/support-banner-logo.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -77,7 +77,7 @@
     order: 1;
     width: 90%;
     height: 200px;
-    background-image: url('https://s3.eu-central-1.amazonaws.com/donate.plast.org.ua/images/support-banner-logo.jpg?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aDGV1LWNlbnRyYWwtMSJHMEUCIHLvBsAn%2Bzd5jOpz5%2BI5gPooR%2BRHKsUxVDSdSoLpvPHvAiEAjq7Z9RPv%2BA%2Bv4wvVI7Sl0b0f9Ox95C58%2BDiG5CIOsk0qhQIIWBAAGgwzMDI1NDA5Mjc4MDgiDN%2FRYaLR1FfFT66iliriAW6vMfTedn3b4xeLrECqAheVG6ZawyjPXxlUbNaCt%2BYdMlCgcnGF%2F2eAtenr2E5smGyCMO9qeITAGajvexgQ%2BkvJ7JrCxkMaS1QFNvExXr1AC917YKnV%2FEeBS6pDAzeNTei2ZmUN76OdyumCfnqyygaJiCIJicVdwTu2vnSPTLGx7hsSpadL9qs%2BKJPhLoL8%2BBmvAN0TH8aPx4F2%2FslQlzC%2BDUp8%2FwjtCnxMhfQszLKPtsDYGj7d0a%2FHhRF0yhJ%2BKxZnMunZv6iu6ZfGyQWheEhUi1e4KLTOue%2BnrZPhh676iacwx%2BPP7QU6jgP%2B8AWTF4Gj2Qs9nvdh5%2Fc9ZdybRQFD8V4Ygl%2FV6RS%2BnPnioLuNEUMZaFfKZFK2GPtkGZWcCKACdZgBIEGRHSt%2FpN9CFtbNsxOxumQoBazA97ysRmDw1jxAMtxpCHlt0u08bj962uh47toqz%2FEa%2B8gSIzO9NMwFHWagNC5DqeBG9dbCqe4YNCKBPpymFdNsVW9CzJLnVDTtJMkbPU4wN4uX5uOIBQM3EIu9K9h4S%2BA7%2BrIQYov0k1cktjOEbVPwC1oGNu7F4RfSQbD8cuiF%2FCk2EPe4HIaOFcgTcepbDIdFqRM7GaUzpypPErh2lWh2QXnYemLgxA987pMKyTogp%2B3kxY%2FYHdc531H0iATwdsP3VDee%2BwqqD2B9tWTV0ZCaIxlyI%2BpDlfvWdxwXgGyJ%2FH1D8kD6bsxVpzTN%2FiKTxgd%2ByGQi%2FZY9GjKdips1fO7anXul1GBFyLMfbMX1Js6xBl4sviEOXlLKqWQuwG3zG%2F2voLHR93RKivCa2QyRwhxzH5C1R9a4tfbjNWrHVOGxRg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191026T125055Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAUM4GYGNAJ7FYHQMZ%2F20191026%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Signature=4663aa3c28d501f0cabfe080238b0d7045b1bf475827294e368ef3df407846a3');
+    background-image: url('../dist/images/support-banner-logo.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

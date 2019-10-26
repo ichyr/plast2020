@@ -3,7 +3,7 @@
   padding: 0;
   width: 100%;
   min-height: 400px;
-  background-image: url('https://res.cloudinary.com/dhcba8amn/image/upload/v1571655961/DSC_3432_pvtdot.jpg');
+  background-image: url('../dist/images/support-banner-backgroud.jpg');
   background-repeat: no-repeat;
   background-position: top;
   display: flex;
@@ -54,7 +54,7 @@
 .support-banner__lily {
   width: 100%;
   height: 220px;
-  background-image: url('https://res.cloudinary.com/dhcba8amn/image/upload/v1571655743/logo_njcnjk.jpg');
+  background-image: url('../dist/images/support-banner-logo.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -73,7 +73,7 @@
     order: 1;
       width: 90%;
       height: 200px;
-      background-image: url('https://res.cloudinary.com/dhcba8amn/image/upload/v1571655743/logo_njcnjk.jpg');
+      background-image: url('../dist/images/support-banner-logo.jpg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;

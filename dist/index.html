@@ -23,13 +23,15 @@
 
     gtag('config', 'UA-75932013-5');
   </script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-database.js"></script>
+
+  <script type="text/javascript" src="bundle.js"></script>
 </head>
 
 <body>
-  <script type="text/javascript" src="bundle.js"></script>
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light header">
-      <img src="logo.png" alt="logo">
+    <img src="logo.png" alt="logo">
     <a class="navbar-brand header-toggle_title" href="#">ПЛАСТ</a>
     <button class="navbar-toggler header-toggle__button" type="button" data-toggle="collapse"
       data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -72,7 +74,7 @@
         </div>
       </div>
 
-     <div class="support-banner__lily-wrapper"> 
+      <div class="support-banner__lily-wrapper">
         <div class="support-banner__lily">
           <img src="hero.jpg" alt="Hero">
         </div>
@@ -223,32 +225,32 @@
       <div class="donations-bg"></div>
       <div class="donations-counter__element">
         <div class="progress vertical">
-          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-            aria-valuemax="100" style="width: 15%;"></div>
+          <div id="d_bar-1" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90"
+            aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         <div class="donations-counter__message">
-          <div class="donations-counter__sum">179 500 грн</div>
-          <div class="donations-counter__small-text">сума</div>
+          <div id="d_sum-1" class="donations-counter__sum"></div>
+          <div id="d_dsc-1" class="donations-counter__small-text"></div>
         </div>
       </div>
       <div class="donations-counter__element">
         <div class="progress vertical">
-          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-            aria-valuemax="100" style="width: 27%;"></div>
+          <div id="d_bar-2" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90"
+            aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         <div class="donations-counter__message">
-          <div class="donations-counter__sum">273</div>
-          <div class="donations-counter__small-text">благодійників</div>
+          <div id="d_sum-2" class="donations-counter__sum"></div>
+          <div id="d_dsc-2" class="donations-counter__small-text"></div>
         </div>
       </div>
       <div class="donations-counter__element">
         <div class="progress vertical">
-          <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-            aria-valuemax="100" style="width: 70%;"></div>
+          <div id="d_bar-3" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90"
+            aria-valuemin="0" aria-valuemax="100"></div>
         </div>
         <div class="donations-counter__message">
-          <div class="donations-counter__sum">183</div>
-          <div class="donations-counter__small-text">днів</div>
+          <div id="d_sum-3" class="donations-counter__sum"></div>
+          <div id="d_dsc-3" class="donations-counter__small-text"></div>
         </div>
       </div>
     </div>
@@ -526,10 +528,10 @@
     </div>
 
     <div class="footer">
-        <div class="footer__logo-container">
-            <img src="logo.png" alt="logo">
-            <div class="footer__logo">ПЛАСТ</div>
-        </div>
+      <div class="footer__logo-container">
+        <img src="logo.png" alt="logo">
+        <div class="footer__logo">ПЛАСТ</div>
+      </div>
       <div class="footer__links">
         <div class="footer__split">
           <div class="footer__link">
@@ -559,6 +561,7 @@
       </div>
     </div>
   </div>
+  <!-- <script src="../dist/js/main.js"></script> -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>

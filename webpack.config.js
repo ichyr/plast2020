@@ -2,11 +2,11 @@
 var path = require('path');
 
 module.exports = {
-  entry: "./src/main.js",
+  entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js",
-    publicPath: "/dist"
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    publicPath: '/dist'
   },
   // plugins: [new HtmlWebpackPlugin()],
   module: {
@@ -14,25 +14,28 @@ module.exports = {
       {
         test: /\.js$/,
         use: {
-          loader: "babel-loader",
-          options: { presets: ["es2015"] }
+          loader: 'babel-loader',
+          options: { presets: ['es2015'] }
         }
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
-        loader: "file-loader"
+        loader: 'file-loader',
+        options: {
+          publicPath: 'fonts'
+        }
       },
       {
         test: /\.scss$/,
         use: [
           {
-            loader: "style-loader" // creates style nodes from JS strings
+            loader: 'style-loader' // creates style nodes from JS strings
           },
           {
-            loader: "css-loader" // translates CSS into CommonJS
+            loader: 'css-loader' // translates CSS into CommonJS
           },
           {
-            loader: "sass-loader" // compiles Sass to CSS
+            loader: 'sass-loader' // compiles Sass to CSS
           }
         ]
       },

@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 25px;
+
 }
 
 .project-list__title {
@@ -13,21 +14,23 @@
   font-size: 32px;
   line-height: 41px;
   text-align: center;
+  margin-right: 70px;
   color: #000000;
   opacity: 0.7;
-
 }
 .project-list__el__wrapper {
-
   display: flex;
   justify-content: center;
-  background: url(../dist/images/attractions-background.png) center center;
+  margin-bottom: 25px;
+
+  &:nth-child(2n) {
+    background: url(../dist/images/attractions-background.png) center center;
+  }
 }
 
 .project-list__element {
   display: flex;
   align-items: center;
-  margin-top: 50px;
 }
 
 .project-list__title {
@@ -78,19 +81,18 @@
   height: 20px;
   //-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
   //transform: rotate(-90deg);
-  background: rgba(0, 0,0, .1);
+  background: rgba(0, 0, 0, 0.1);
 }
 .vertical {
   box-shadow: inset 0px 4px 6px #ccc;
 }
 .progress-bar {
-  box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
+  box-shadow: inset 0px 4px 6px rgba(100, 100, 100, 0.6);
 }
 .project-list__message {
   text-align: left;
 }
 @media screen and (max-width: 968px) {
-
   .project-list__element {
     flex-direction: column;
   }
@@ -108,7 +110,6 @@
 @media screen and (max-width: 768px) {
   .project-list {
     padding: 25px;
-
   }
 
   .project-list__element {
@@ -122,9 +123,7 @@
   .project-list__image {
     img {
       max-width: 300px;
-
     }
     order: 1;
   }
 }
-

@@ -1,6 +1,6 @@
 .donations {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .donations__title {
@@ -39,6 +39,7 @@ opacity: 0.7;
 
 .donations__buttons {
   //margin: 15px;
+  margin: 24px 0;
   display: flex;
   justify-content: center;
   //flex-wrap: wrap;
@@ -48,7 +49,7 @@ opacity: 0.7;
     min-width: 170px;
     min-height: 100px;
     color: white;
-    margin: 15px;
+    margin: 0 15px;
     background: linear-gradient(180deg, #3D1E5C 0%, #221131 84.38%);
     box-shadow: 0px 4px 20px rgba(61, 30, 92, 0.4);
     border-radius: 4px;
